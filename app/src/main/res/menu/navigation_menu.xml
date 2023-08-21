@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all"
+        android:title="All"
+        android:icon="@drawable/icon_all_menu"/>
+
+    <item
+        android:id="@+id/banks"
+        android:title="Banks"
+        android:icon="@drawable/icon_items_menu"/>
+
+    <item
+        android:id="@+id/bankingApps"
+        android:title="Banking Apps"
+        android:icon="@drawable/icon_items_menu"/>
+
+    <item
+        android:id="@+id/social"
+        android:title="Social"
+        android:icon="@drawable/icon_items_menu"/>
+
+    <item
+        android:id="@+id/emails"
+        android:title="Emails"
+        android:icon="@drawable/icon_items_menu"/>
+
+    <item
+        android:id="@+id/work"
+        android:title="Work"
+        android:icon="@drawable/icon_items_menu"/>
+
+</menu>

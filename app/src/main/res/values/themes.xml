@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PasswordSaver" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#AA2196F3</item> <!--notification bar color-->
+        <item name="colorControlNormal">#fff</item> <!--menu icon color-->
+    </style>
+
+    <style name="Theme.PasswordSaver" parent="Base.Theme.PasswordSaver" />
+</resources>

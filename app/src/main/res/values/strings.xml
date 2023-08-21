@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Password Saver</string>
+
+    <!--navigation drawer-->
+    <string name="navigation_heading">My Passwords</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+
+    <!--layout fragment-->
+    <string name="add_password_btn_content_description">Add Password Button</string>
+
+    <!--layout add password-->
+    <string name="layout_add_password_dialog_title">Add Password</string>
+    <string name="layout_edit_password_dialog_title">Edit Password</string>
+    <string name="hint_edt_title">Title</string>
+    <string name="hint_edt_account">Account</string>
+    <string name="hint_edt_username">Username</string>
+    <string name="hint_edt_password">Password</string>
+    <string name="hint_edt_password_type">Password Type</string>
+    <string name="save_btn">Save Password</string>
+
+    <!--layout password recycler view-->
+    <string name="image_content_description">Password Image</string>
+    <string name="text_title">Password Title</string>
+    <string name="text_account">Password Account</string>
+    <string name="text_username">Password Username</string>
+    <string name="text_image_icon_password">G</string>
+</resources>
