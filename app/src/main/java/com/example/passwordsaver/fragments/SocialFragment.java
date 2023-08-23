@@ -2,12 +2,11 @@ package com.example.passwordsaver.fragments;
 
 import android.os.Bundle;
 
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.passwordsaver.MainActivity;
 import com.example.passwordsaver.R;
 
 public class SocialFragment extends MyFragment {
@@ -25,7 +24,7 @@ public class SocialFragment extends MyFragment {
 
         setFragmentView(fragSocialView, "Social");
         setBtnAddPasswordAction(fragSocialView, new SocialFragment());
-        setRecyclerView(fragSocialView, getMainActivity().getDatabaseHelper().getPasswords("Social"));
+        setRecyclerView(fragSocialView, MainActivity.getDatabaseHelper().getPasswords("Social", "password"));
 
         return fragSocialView;
     }

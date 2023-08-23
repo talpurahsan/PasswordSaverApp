@@ -25,4 +25,9 @@
     <string name="text_account">Password Account</string>
     <string name="text_username">Password Username</string>
     <string name="text_image_icon_password">G</string>
+
+    <!--activity recycled password -->
+    <string name="delete_btn">Delete</string>
+    <string name="restore_btn">Restore</string>
+
 </resources>

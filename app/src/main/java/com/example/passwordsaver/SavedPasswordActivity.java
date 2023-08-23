@@ -39,7 +39,7 @@ public class SavedPasswordActivity extends PasswordActivity {
         intent = getIntent();
         passwordID = intent.getIntExtra("passwordID", 0);
 
-        Password foundPassword = MainActivity.getDatabaseHelper().getPassword(passwordID);
+        Password foundPassword = MainActivity.getDatabaseHelper().getPassword(passwordID, "password");
         title = foundPassword.getTitle();
         account = foundPassword.getAccount();
         username = foundPassword.getUsername();
@@ -95,7 +95,7 @@ public class SavedPasswordActivity extends PasswordActivity {
         }
         if(itemID == R.id.optionDelete){
 
-            MainActivity.getDatabaseHelper().deletePassword(passwordID);
+            MainActivity.getDatabaseHelper().deletePassword(passwordID, "password");
             Toast.makeText(this, "Deleted Successfully!", Toast.LENGTH_SHORT).show();
             Intent intentMainActivity = new Intent(SavedPasswordActivity.this, MainActivity.class);
             intentMainActivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);   // clearing the activity stacktrace

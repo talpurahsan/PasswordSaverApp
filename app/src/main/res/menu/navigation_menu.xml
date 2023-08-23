@@ -31,4 +31,12 @@
         android:title="Work"
         android:icon="@drawable/icon_items_menu"/>
 
+    <item android:id="@+id/blank" />
+
+    <item
+        android:id="@+id/recyclebin"
+        android:title="Recycle Bin"
+        android:icon="@drawable/icon_recycle_bin"
+        />
+
 </menu>

@@ -23,6 +23,7 @@ import com.example.passwordsaver.fragments.AllFragment;
 import com.example.passwordsaver.fragments.BankingAppsFragment;
 import com.example.passwordsaver.fragments.BanksFragment;
 import com.example.passwordsaver.fragments.EmailsFragment;
+import com.example.passwordsaver.fragments.RecycleBinFragment;
 import com.example.passwordsaver.fragments.SocialFragment;
 import com.example.passwordsaver.fragments.WorkFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -88,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(itemID == R.id.social){ loadFragment(new SocialFragment(), false); }
                 else if(itemID == R.id.emails){ loadFragment(new EmailsFragment(), false); }
                 else if (itemID == R.id.work){ loadFragment(new WorkFragment(), false); }
+                else if (itemID == R.id.recyclebin){ loadFragment(new RecycleBinFragment(), false); }
 
                 drawerLayout.closeDrawer(GravityCompat.START);  //closing the drawer on the item's click
 
